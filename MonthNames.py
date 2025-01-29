@@ -91,11 +91,11 @@ for i in range(1, limit + 1):
 
 
 
-while True:
-    value = input("Enter a value: ")
-    if value.lower() == 'done':
-        print("Done")
-        break
+value = input("Enter a value: ")
+if value.lower() == 'done':
+    print("Done")
+    break
+else:
     print(value)
 
 
